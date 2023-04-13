@@ -1,0 +1,8 @@
+ul li:nth-child(even)
+{
+    color:  red;
+}
+image:hover
+{
+    filter:grayscale(0.2)
+}

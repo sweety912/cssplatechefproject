@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body{
+    margin: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    align-items: center;
+}
+.navbar ul li{
+    padding: 5px 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* hero section */
+.hero
+    {
+        background-image: linear-gradient();
+        height: 60vh;
+        width: 100%;
+        background-color: aqua;
+        border: 2px solid red;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .hero_text
+    {
+        width:80%;
+        /* border: 2px solid red; */
+       margin: auto;
+     
+    }
+    .hero h1{
+      padding-top: 80px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .hero p{
+        text-align: center;
+      }
+      .hero button
+      {
+        padding: 10px;
+        text-align: center;
+        margin-left: 410px;
+        border: 2px solid black;
+        background-color: orange;
+        border-radius: 20px;
+        width: 160px;
+        
+      }
+      .hero button :hover
+      {
+       color: olivedrab;
+      }
+      /* about css */
+      .About
+      {
+        height: 400px;
+        width: 100%;
+        border: 2px solid red;
+        /* padding: 5px; */
+      }
+      .About h1{
+        text-align: center;
+        color: brown;
+      }
+      .aboutdata
+      {
+        display: flex;
+        /* margin: 10px; */
+        justify-content: space-around;
+        /* margin-right: 10px; */
+      }
+      .firstdiv
+      {
+        height: 300px;
+        width:230px;
+        border: 2px solid orange;
+        border-radius: 20px;
+        position: relative;
+      }
+      .seconddiv
+      {
+        height: 300px;
+        width:230px;
+        border: 2px solid orange;
+        border-radius: 20px;
+        position: relative;
+      }
+      .thirddiv
+      {
+        height: 300px;
+        width:230px;
+        border: 2px solid orange;
+        border-radius: 20px;
+        position: relative;
+      }
+      .fourthdiv
+      {
+        height: 300px;
+        width:230px;
+        border: 2px solid orange;
+        border-radius: 20px;
+        position: relative;
+      }
+      .firstimg
+      {
+        position: absolute;
+        left:10px;
+        top: 0;
+       
+      }
+      
+.secondimg
+{
+    position: absolute;
+        left:10px;
+        top: 5px;
+
+}
+.aboutdata h1{
+    margin-top: 120px;
+    font-size: large;
+    /* text-align: center; */
+    color: blue;
+   float: left;
+   margin-left: 10px;
+    
+}
+.aboutdata p{
+    margin-top: 160px;
+    margin-left: 10px;
+    font-size: larger;
+}
+/* gallery section */
+.gallery{
+    height: 800px;
+    width: 100%;
+    border: 2px solid red;
+}
+.gallery h1
+
+{
+    text-align: center;
+    padding: 30px;
+    color: brown;
+}
+.card
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px;
+   
+}
+.card img
+{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+/* subscription section */
+.subscription
+{
+    height: 500px;
+    width: 100%;
+    border: 2px solid red;
+}
+.subscriptionplan
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.subscription h1
+
+{
+    text-align: center;
+    padding: 30px;
+    color: brown;
+}
+.plan{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    line-height: 10px;
+    animation-name: example;
+  animation-duration: 8s;
+}
+
+@keyframes example {
+    from {background-color: rgb(255, 0, 170);}
+    to {background-color: yellow;}
+  }
+.plan h2{
+    text-align: center;
+    color:orangered;
+    /* padding: 20px; */
+    box-sizing: border-box;
+}
+.plan h3{
+    text-align: center;
+    font-size: 30px;
+}
+.plan p{
+    margin-top: 40px;
+    text-indent: 2px;
+    line-height: 20px;
+    padding: 10px;
+}
+/* footer section */
+.footer h1{
+padding: 10px;
+}
+.footer
+{
+    border: 2px solid red;
+}
+@media(max-width:576px)
+{
+    .dlink
+    {
+        display: none;
+    }
+    /* hero section */
+    .hero_text
+    {
+        width:80%;
+        /* border: 2px solid red; */
+       margin: auto;
+     
+    }
+    .hero h1{
+      padding-top: 150px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .hero p{
+        text-align: center;
+      }
+      .hero button
+      {
+        text-align: center;
+        margin-left: 100px;
+        width: 80px;
+      }
+      /* about us */
+      .About
+      {
+        height: 1300px;
+        width: 100%;
+        border: 2px solid red;
+       padding: 70px;
+       text-align: center;
+       margin: 0;
+      }
+     .aboutdata
+     {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        /* padding: 20px; */
+       
+     }
+     .About h1{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        text-align: center;
+        color: brown;
+        font-size: 20px;
+       width: 200px; 
+       margin-bottom: 20px;
+      margin-top: 10px;
+      padding: 10px;
+        
+      }
+      .aboutdata h1
+      {
+        margin-top: 100px;
+      }
+      /* gallery */
+      .gallery{
+        height: 2700px;
+        width: 100%;
+        border: 2px solid red;
+    }
+    
+    .card
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .card img
+    {
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 20px;
+        
+    }
+      /* .subscription */
+      .subscription
+{
+    height: 1200px;
+    width: 100%;
+    border: 2px solid red;
+    text-align: center;
+}
+.subscriptionplan
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 35px;
+}
+.subscription h1
+
+{
+    text-align: center;
+    padding: 30px;
+    color: brown;
+}
+.plan{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    line-height: 10px;
+    animation-name: example;
+  animation-duration: 8s;
+}
+.footer
+{
+   
+    height: 40px;width: 100%;text-align: center
+}
+.footer h1{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+
+
+}

@@ -1,0 +1,35 @@
+.card
+{
+    width:300px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.image-parent
+{
+    width: 300px;
+    height: 300px;
+    position: relative;
+   
+}
+.flower-image
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.must-try
+{
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    color: white;
+   text-align: left;
+    
+}
+
+.flex
+{
+    display: flex;
+}
